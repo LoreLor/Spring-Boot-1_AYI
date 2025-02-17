@@ -23,7 +23,9 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
-    extends: ["eslint:all", "plugin:react/all"], // para evitar que chille con las props
+   
+    extends: ["eslint:recommended", "plugin:react/recommended"],
+  
     rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
